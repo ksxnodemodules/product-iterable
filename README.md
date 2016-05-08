@@ -1,5 +1,5 @@
 
-# concat-iterable
+# product-iterable
 
 # Requirements
 
