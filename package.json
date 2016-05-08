@@ -2,7 +2,7 @@
 {
 	"name": "product-iterable",
 	"description": "Make a Cartesian product of iterables, or create a Cartesian power of an iterable",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
 	"contributors": [
 		"Hoàng Văn Khải <hvksmr1996@gmail.com>"
