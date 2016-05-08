@@ -56,9 +56,11 @@ var power = ProductIterable.pow(iterable, exponent);
 
 Where:
 
- * `iterable` is a finite iterable object
+ * `iterable` is a finite iterable object, let's suppose its length equal to *L*
 
- * `exponent` is an unsigned integer
+ * `exponent` is an unsigned integer, let's call it *E*
+
+ * `power` is an iterable object which iterates L<sup>E</sup> number of arrays of `iterable`'s elements
 
 ### Example
 
