@@ -3,9 +3,9 @@
 	'use strict';
 
 	var createClassFromSuper = require('simple-class-utils').createClass.super;
-	var recursiveConstructor = require('x-iterable-utils/recursive-constructor.js');
-	var manySameElements = require('x-iterable-utils/many-same-elements.js');
-	var ProductIterableSuper = require('x-iterable-utils/appx-super-class.js')(build, iterate);
+	var recursiveConstructor = require('x-iterable-utils/recursive-constructor');
+	var manySameElements = require('x-iterable-utils/many-same-elements');
+	var ProductIterableSuper = require('x-iterable-utils/appx-super-class')(build, iterate);
 
 	class ProductIterable extends ProductIterableSuper {
 
