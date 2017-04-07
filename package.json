@@ -1,34 +1,33 @@
-
 {
-	"name": "product-iterable",
-	"description": "Make a Cartesian product of iterables, or create a Cartesian power of an iterable",
-	"version": "1.0.3",
-	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
-	"contributors": [
-		"Hoàng Văn Khải <hvksmr1996@gmail.com>"
-	],
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ksxnodemodules/product-iterable.git"
-	},
-	"engines": {
-		"node": ">=6.0.0"
-	},
-	"dependencies": {
-		"x-iterable-utils": "ksxnodemodules/x-iterable-utils#v0.0.0",
-		"simple-class-utils": ">=0.0.4 <2.0.0"
-	},
-	"main": "index.js",
-	"keywords": [
-		"product-iterable",
-		"product-iterator",
-		"cartesian-product",
-		"cartesian-power",
-		"iterable-cross-product"
-	],
-	"bugs": {
-		"url": "https://github.com/ksxnodemodules/product-iterable/issues"
-	},
-	"homepage": "https://github.com/ksxnodemodules/product-iterable#readme"
+  "name": "product-iterable",
+  "description": "Make a Cartesian product of iterables, or create a Cartesian power of an iterable",
+  "version": "1.0.3",
+  "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+  "contributors": [
+    "Hoàng Văn Khải <hvksmr1996@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksxnodemodules/product-iterable.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "x-iterable-utils": "ksxnodemodules/x-iterable-utils#v1.0.0",
+    "simple-class-utils": ">=0.0.4 <2.0.0"
+  },
+  "main": "index.js",
+  "keywords": [
+    "product-iterable",
+    "product-iterator",
+    "cartesian-product",
+    "cartesian-power",
+    "iterable-cross-product"
+  ],
+  "bugs": {
+    "url": "https://github.com/ksxnodemodules/product-iterable/issues"
+  },
+  "homepage": "https://github.com/ksxnodemodules/product-iterable#readme"
 }
