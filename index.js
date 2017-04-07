@@ -16,7 +16,7 @@
       var args = manySameElements(iterable, exponent)
       return args.length ? new ProductIterable(...args) : []
     }
-	}
+  }
 
   module.exports = ProductIterable
 
