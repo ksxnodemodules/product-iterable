@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "x-iterable-utils": "ksxnodemodules/x-iterable-utils#v1.0.0",
-    "simple-class-utils": ">=0.0.4 <2.0.0"
+    "simple-class-utils": ">=0.0.4 <2.0.0",
+    "x-iterable-base": "^4.0.0"
   },
   "main": "index.js",
   "keywords": [
