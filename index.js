@@ -2,10 +2,10 @@
 ((module) => {
   'use strict'
 
-  var createClassFromSuper = require('simple-class-utils').createClass.super
-  var recursiveConstructor = require('x-iterable-utils/recursive-constructor')
-  var manySameElements = require('x-iterable-utils/many-same-elements')
-  var ProductIterableSuper = require('x-iterable-utils/appx-super-class')(build, iterate)
+  const createClassFromSuper = require('simple-class-utils').createClass.super
+  const recursiveConstructor = require('x-iterable-utils/recursive-constructor')
+  const manySameElements = require('x-iterable-utils/many-same-elements')
+  const ProductIterableSuper = require('x-iterable-utils/appx-super-class')(build, iterate)
 
   class ProductIterable extends ProductIterableSuper {
     static times (...args) {
@@ -13,7 +13,7 @@
     }
 
     static pow (iterable, exponent) {
-      var args = manySameElements(iterable, exponent)
+      const args = manySameElements(iterable, exponent)
       return args.length ? new ProductIterable(...args) : []
     }
   }
@@ -27,7 +27,7 @@
   }
 
   function * iterate () {
-    var {first, second} = this
+    const {first, second} = this
     for (let i of first) {
       for (let j of second) {
         yield new ProductIterable.Result(i, ...j)
