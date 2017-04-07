@@ -28,8 +28,8 @@
 
   function * iterate () {
     const {first, second} = this
-    for (let i of first) {
-      for (let j of second) {
+    for (const i of first) {
+      for (const j of second) {
         yield new ProductIterable.Result(i, ...j)
       }
     }
